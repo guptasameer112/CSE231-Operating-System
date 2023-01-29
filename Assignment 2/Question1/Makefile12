@@ -1,0 +1,6 @@
+all : compile
+
+compile: 
+	gcc processes.c -o processes
+
+

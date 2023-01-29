@@ -1,0 +1,8 @@
+all : compile run
+
+compile: 
+	gcc kernelcopy.c -o kernelcopy
+
+run:
+	./kernelcopy
+
